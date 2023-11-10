@@ -174,10 +174,7 @@ img {
     text-overflow:clip;
     padding-top: 7px;
 }
-.fourth-contrainer {
-    /* padding-bottom: 23px; */
-    
-}
+
 
 .sign {
     display: flex;
@@ -206,7 +203,7 @@ img {
     margin-right: auto;
 }
 .idk {
-    /* margin-right: auto; */
+    
     margin-left: auto;
 }
 .up {
