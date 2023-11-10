@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
    
 }
 .header-items {
@@ -15,9 +17,7 @@ body {
 }
 .header-container {
     background-color: #1F2937;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: 8px;
+    
 }
 ul {
     display: flex;
@@ -127,13 +127,15 @@ img {
     border: 2px solid rgb(82, 82, 253);
 }
 .footer {
-    
+    display: flex;
+    flex-direction: column;
     color: white;
+    justify-content: center;
     text-align: center;
     background-color: #1F2937;
     padding: 18px;
+    bottom: 0;
     
-    margin-bottom: -30px;
     
    
     
